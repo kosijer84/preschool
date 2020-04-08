@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/preschool/static/css/main.a1e7baba.chunk.css",
-    "main.js": "/preschool/static/js/main.499f14d3.chunk.js",
-    "main.js.map": "/preschool/static/js/main.499f14d3.chunk.js.map",
+    "main.css": "/preschool/static/css/main.32cd950b.chunk.css",
+    "main.js": "/preschool/static/js/main.2f675d7f.chunk.js",
+    "main.js.map": "/preschool/static/js/main.2f675d7f.chunk.js.map",
     "runtime-main.js": "/preschool/static/js/runtime-main.b0bbbd0c.js",
     "runtime-main.js.map": "/preschool/static/js/runtime-main.b0bbbd0c.js.map",
     "static/js/2.5136f926.chunk.js": "/preschool/static/js/2.5136f926.chunk.js",
     "static/js/2.5136f926.chunk.js.map": "/preschool/static/js/2.5136f926.chunk.js.map",
     "index.html": "/preschool/index.html",
-    "precache-manifest.9b7d27138c2fcdaca55a5d51809aca7b.js": "/preschool/precache-manifest.9b7d27138c2fcdaca55a5d51809aca7b.js",
+    "precache-manifest.aa207c4d87cc6aaf6e81754be83c1bb3.js": "/preschool/precache-manifest.aa207c4d87cc6aaf6e81754be83c1bb3.js",
     "service-worker.js": "/preschool/service-worker.js",
-    "static/css/main.a1e7baba.chunk.css.map": "/preschool/static/css/main.a1e7baba.chunk.css.map",
+    "static/css/main.32cd950b.chunk.css.map": "/preschool/static/css/main.32cd950b.chunk.css.map",
     "static/js/2.5136f926.chunk.js.LICENSE.txt": "/preschool/static/js/2.5136f926.chunk.js.LICENSE.txt",
     "static/media/airplane.jpg": "/preschool/static/media/airplane.a80c3772.jpg",
     "static/media/bicikl.jpg": "/preschool/static/media/bicikl.bed8ee6a.jpg",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.b0bbbd0c.js",
     "static/js/2.5136f926.chunk.js",
-    "static/css/main.a1e7baba.chunk.css",
-    "static/js/main.499f14d3.chunk.js"
+    "static/css/main.32cd950b.chunk.css",
+    "static/js/main.2f675d7f.chunk.js"
   ]
 }
