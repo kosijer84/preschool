@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/preschool/static/css/main.1c36993e.chunk.css",
-    "main.js": "/preschool/static/js/main.7d93dc42.chunk.js",
-    "main.js.map": "/preschool/static/js/main.7d93dc42.chunk.js.map",
+    "main.css": "/preschool/static/css/main.762ed307.chunk.css",
+    "main.js": "/preschool/static/js/main.ad6feec7.chunk.js",
+    "main.js.map": "/preschool/static/js/main.ad6feec7.chunk.js.map",
     "runtime-main.js": "/preschool/static/js/runtime-main.2c624ddf.js",
     "runtime-main.js.map": "/preschool/static/js/runtime-main.2c624ddf.js.map",
-    "static/css/2.14c54280.chunk.css": "/preschool/static/css/2.14c54280.chunk.css",
-    "static/js/2.4aeb749d.chunk.js": "/preschool/static/js/2.4aeb749d.chunk.js",
-    "static/js/2.4aeb749d.chunk.js.map": "/preschool/static/js/2.4aeb749d.chunk.js.map",
+    "static/css/2.9f0bc33a.chunk.css": "/preschool/static/css/2.9f0bc33a.chunk.css",
+    "static/js/2.f5605027.chunk.js": "/preschool/static/js/2.f5605027.chunk.js",
+    "static/js/2.f5605027.chunk.js.map": "/preschool/static/js/2.f5605027.chunk.js.map",
     "index.html": "/preschool/index.html",
-    "precache-manifest.79c36a24f4fb9eeee265fe6117d695d5.js": "/preschool/precache-manifest.79c36a24f4fb9eeee265fe6117d695d5.js",
+    "precache-manifest.4a4bdbdf6e6d22238ba3fb54e0e5b38e.js": "/preschool/precache-manifest.4a4bdbdf6e6d22238ba3fb54e0e5b38e.js",
     "service-worker.js": "/preschool/service-worker.js",
-    "static/css/2.14c54280.chunk.css.map": "/preschool/static/css/2.14c54280.chunk.css.map",
-    "static/css/main.1c36993e.chunk.css.map": "/preschool/static/css/main.1c36993e.chunk.css.map",
-    "static/js/2.4aeb749d.chunk.js.LICENSE.txt": "/preschool/static/js/2.4aeb749d.chunk.js.LICENSE.txt",
+    "static/css/2.9f0bc33a.chunk.css.map": "/preschool/static/css/2.9f0bc33a.chunk.css.map",
+    "static/css/main.762ed307.chunk.css.map": "/preschool/static/css/main.762ed307.chunk.css.map",
+    "static/js/2.f5605027.chunk.js.LICENSE.txt": "/preschool/static/js/2.f5605027.chunk.js.LICENSE.txt",
     "static/media/airplane.jpg": "/preschool/static/media/airplane.a80c3772.jpg",
     "static/media/bicikl.jpg": "/preschool/static/media/bicikl.bed8ee6a.jpg",
     "static/media/butterfly.jpg": "/preschool/static/media/butterfly.8a396b60.jpg",
@@ -48,9 +48,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2c624ddf.js",
-    "static/css/2.14c54280.chunk.css",
-    "static/js/2.4aeb749d.chunk.js",
-    "static/css/main.1c36993e.chunk.css",
-    "static/js/main.7d93dc42.chunk.js"
+    "static/css/2.9f0bc33a.chunk.css",
+    "static/js/2.f5605027.chunk.js",
+    "static/css/main.762ed307.chunk.css",
+    "static/js/main.ad6feec7.chunk.js"
   ]
 }
