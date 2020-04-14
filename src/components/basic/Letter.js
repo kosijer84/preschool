@@ -13,7 +13,7 @@ const Letter = (props) => {
   });
 
   return (
-      <div className='d-flex'>
+      <div className='words-frame'>
         {letterList}
       </div>
   )

@@ -1,0 +1,58 @@
+.sidebar {
+  position: sticky;
+  top: 50px;
+  padding: 10px 0;
+  margin-left: -200px;
+  flex: 1 0 200px;
+  width: 200px;
+  height: calc(100vh - 50px);
+  background: white;
+  border-right: 1px solid @primary-color;
+  transition: margin-left .3s ease-in-out;
+
+  .list-group-item {
+    font-size: 18px;
+    text-transform: capitalize;
+
+    a {
+      color: darkgray;
+    }
+  }
+
+  .ant-menu-submenu-title {
+    font-size: 18px;
+
+    svg {
+      font-size: 18px;
+    }
+  }
+
+  .ant-menu-item-only-child {
+
+    a {
+      font-size: 16px;
+    }
+  }
+
+  &.opened {
+    margin-left: 0;
+
+    @media (max-width: 767px) {
+      position: fixed;
+      z-index: 99999;
+    }
+  }
+}
+
+.toggleButton {
+  position: fixed;
+  z-index: 9999;
+  top: 5px;
+  left: 160px;
+  color: white;
+
+  svg {
+    width: 35px;
+    height: 35px;
+  }
+}

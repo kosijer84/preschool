@@ -6,8 +6,8 @@ class Home extends  Component {
 
     return (
         <div className='main-frame'>
-          <h1>Welcome :)</h1>
-          <p>Preschool education</p>
+          <h1>Предшколска едукација :)</h1>
+          <p>Изаберите са стране једну од опција..</p>
         </div>
     )
   }

@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Button, Result} from 'antd'
+import {ArrowLeftOutlined, SmileOutlined} from '@ant-design/icons'
 import Letter from '../basic/Letter'
 import Plain from '../../img/airplane.jpg'
 import Squirrel from '../../img/veverica.jpg'
@@ -39,6 +41,7 @@ class Alphabet extends Component {
 
   state = {
     word: [],
+    successMatch: false
   };
 
   alphabetPairs = [
@@ -211,6 +214,24 @@ class Alphabet extends Component {
     this.setState({word: [...this.state.word, {letter, letterID}]});
   };
 
+  componentDidUpdate() {
+    let originalWord = localStorage.getItem('word');
+
+    const typingWord = this.state.word.map(x => {
+
+      return x.letter
+    });
+
+    let finishedWord = typingWord.join('');
+
+    console.log('finishedWord', finishedWord)
+    console.log('originalWord', originalWord)
+
+    if (finishedWord === originalWord) {
+      this.setState({successMatch: true})
+    }
+  }
+
   deleteLetter = () => {
     this.state.word.pop();
 
@@ -223,35 +244,43 @@ class Alphabet extends Component {
     return (
         <div className='main-frame'>
 
-          <div className="row">
-            <div className='col-sm-12'>
-              <div className="letter-options">
+          <div className="letter-options-sticky">
+            <div className={(this.state.word.length ? "letter-options" : "letter-empty")}>
 
-                <Letter myWord={this.state.word}/>
+              <Letter myWord={this.state.word}/>
 
-                {this.state.word.length ? (
-                    <button className="btn btn-secondary" onClick={this.deleteLetter}>Бриши уназад</button>
-                ):(
-                    <p>Направи своју реч</p>
-                )}
+              {this.state.word.length ? (
+                  <Button type="default" icon={<ArrowLeftOutlined/>} onClick={this.deleteLetter}>
+                    Бриши уназад
+                  </Button>
+              ) : (
+                  <p>Направи своју реч</p>
+              )}
 
-              </div>
             </div>
           </div>
-          <div className="row">
+          <div className="letter-line">
             {this.alphabetPairs.map((pair) => {
 
               return (
-                  <div key={pair.id} className='col-3 col-md-2 col-xl-1 mb-4'>
-                    <div className="letter-frame">
-                      <img src={pair.img} alt=""/>
-                      <span>{pair.letter}</span>
-                      <button className='btn btn-link' onClick={this.addLetter} value={pair.letter}>Додај</button>
-                    </div>
+                  <div key={pair.id} className='letter-frame'>
+                    <img src={pair.img} alt=""/>
+                    <span>{pair.letter}</span>
+                    <Button type="link" className='btn-link'
+                            onClick={this.addLetter}
+                            value={pair.letter}>
+                    </Button>
                   </div>
               )
             })}
           </div>
+          {this.state.successMatch === true && (
+              <Result
+                  icon={<SmileOutlined />}
+                  title="Great, we have done all the operations!"
+                  extra={<Button type="primary">Next</Button>}
+              />
+          )}
         </div>
     )
   }

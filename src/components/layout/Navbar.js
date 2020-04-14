@@ -1,17 +1,30 @@
-import React, {Component} from 'react'
+import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
+import {Affix, Button} from 'antd';
+import {MenuOutlined} from '@ant-design/icons';
+import Words from '../basic/Words'
 
-class Navbar extends Component {
+const toggleSidebar = () => {
+  document.getElementById('sidebar').classList.toggle('opened')
+};
 
-  render() {
+const Navbar = () => {
 
-    return (
-        <div>
-          <nav className="navbar fixed-top">
-            <a className="navbar-brand" href="/">Preschool</a>
+  const [top] = useState(0);
+
+  return (
+      <div>
+        <Affix offsetTop={top}>
+          <nav className="navbar">
+            <Link className="navbar-brand" to="/">Предшколско</Link>
+            <Button type="link" onClick={toggleSidebar}>
+              <MenuOutlined style={{fontSize: '24px', color: '#fff'}}/>
+            </Button>
+            <Words/>
           </nav>
-        </div>
-    )
-  }
-}
+        </Affix>
+      </div>
+  )
+};
 
 export default Navbar
