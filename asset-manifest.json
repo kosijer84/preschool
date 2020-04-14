@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/preschool/static/css/main.762ed307.chunk.css",
-    "main.js": "/preschool/static/js/main.4615ee1b.chunk.js",
-    "main.js.map": "/preschool/static/js/main.4615ee1b.chunk.js.map",
+    "main.css": "/preschool/static/css/main.99505199.chunk.css",
+    "main.js": "/preschool/static/js/main.bba005c5.chunk.js",
+    "main.js.map": "/preschool/static/js/main.bba005c5.chunk.js.map",
     "runtime-main.js": "/preschool/static/js/runtime-main.2c624ddf.js",
     "runtime-main.js.map": "/preschool/static/js/runtime-main.2c624ddf.js.map",
     "static/css/2.9f0bc33a.chunk.css": "/preschool/static/css/2.9f0bc33a.chunk.css",
-    "static/js/2.857f2a42.chunk.js": "/preschool/static/js/2.857f2a42.chunk.js",
-    "static/js/2.857f2a42.chunk.js.map": "/preschool/static/js/2.857f2a42.chunk.js.map",
+    "static/js/2.c4cbf29b.chunk.js": "/preschool/static/js/2.c4cbf29b.chunk.js",
+    "static/js/2.c4cbf29b.chunk.js.map": "/preschool/static/js/2.c4cbf29b.chunk.js.map",
     "index.html": "/preschool/index.html",
-    "precache-manifest.58310e6a5b0188bd1ca6652fb69dcb3b.js": "/preschool/precache-manifest.58310e6a5b0188bd1ca6652fb69dcb3b.js",
+    "precache-manifest.e288e278949ca93b90ba0402c43afd4b.js": "/preschool/precache-manifest.e288e278949ca93b90ba0402c43afd4b.js",
     "service-worker.js": "/preschool/service-worker.js",
     "static/css/2.9f0bc33a.chunk.css.map": "/preschool/static/css/2.9f0bc33a.chunk.css.map",
-    "static/css/main.762ed307.chunk.css.map": "/preschool/static/css/main.762ed307.chunk.css.map",
-    "static/js/2.857f2a42.chunk.js.LICENSE.txt": "/preschool/static/js/2.857f2a42.chunk.js.LICENSE.txt",
+    "static/css/main.99505199.chunk.css.map": "/preschool/static/css/main.99505199.chunk.css.map",
+    "static/js/2.c4cbf29b.chunk.js.LICENSE.txt": "/preschool/static/js/2.c4cbf29b.chunk.js.LICENSE.txt",
     "static/media/airplane.jpg": "/preschool/static/media/airplane.a80c3772.jpg",
     "static/media/bicikl.jpg": "/preschool/static/media/bicikl.bed8ee6a.jpg",
     "static/media/butterfly.jpg": "/preschool/static/media/butterfly.8a396b60.jpg",
@@ -38,6 +38,7 @@
     "static/media/sheep.jpg": "/preschool/static/media/sheep.02564877.jpg",
     "static/media/snail.jpg": "/preschool/static/media/snail.63c1a937.jpg",
     "static/media/space.png": "/preschool/static/media/space.8dfbde40.png",
+    "static/media/success.gif": "/preschool/static/media/success.b0fd66f0.gif",
     "static/media/sun.jpg": "/preschool/static/media/sun.45b84523.jpg",
     "static/media/sweater.jpg": "/preschool/static/media/sweater.b904e764.jpg",
     "static/media/swing.jpg": "/preschool/static/media/swing.d70dbe0a.jpg",
@@ -49,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.2c624ddf.js",
     "static/css/2.9f0bc33a.chunk.css",
-    "static/js/2.857f2a42.chunk.js",
-    "static/css/main.762ed307.chunk.css",
-    "static/js/main.4615ee1b.chunk.js"
+    "static/js/2.c4cbf29b.chunk.js",
+    "static/css/main.99505199.chunk.css",
+    "static/js/main.bba005c5.chunk.js"
   ]
 }
