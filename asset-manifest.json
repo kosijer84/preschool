@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/preschool/static/css/main.99505199.chunk.css",
-    "main.js": "/preschool/static/js/main.bba005c5.chunk.js",
-    "main.js.map": "/preschool/static/js/main.bba005c5.chunk.js.map",
+    "main.css": "/preschool/static/css/main.2a1355b9.chunk.css",
+    "main.js": "/preschool/static/js/main.84239e39.chunk.js",
+    "main.js.map": "/preschool/static/js/main.84239e39.chunk.js.map",
     "runtime-main.js": "/preschool/static/js/runtime-main.2c624ddf.js",
     "runtime-main.js.map": "/preschool/static/js/runtime-main.2c624ddf.js.map",
-    "static/css/2.9f0bc33a.chunk.css": "/preschool/static/css/2.9f0bc33a.chunk.css",
-    "static/js/2.c4cbf29b.chunk.js": "/preschool/static/js/2.c4cbf29b.chunk.js",
-    "static/js/2.c4cbf29b.chunk.js.map": "/preschool/static/js/2.c4cbf29b.chunk.js.map",
+    "static/css/2.93187080.chunk.css": "/preschool/static/css/2.93187080.chunk.css",
+    "static/js/2.da35ab3e.chunk.js": "/preschool/static/js/2.da35ab3e.chunk.js",
+    "static/js/2.da35ab3e.chunk.js.map": "/preschool/static/js/2.da35ab3e.chunk.js.map",
     "index.html": "/preschool/index.html",
-    "precache-manifest.e288e278949ca93b90ba0402c43afd4b.js": "/preschool/precache-manifest.e288e278949ca93b90ba0402c43afd4b.js",
+    "precache-manifest.8afc8fa18a8bd5b3c8d47629230c7e18.js": "/preschool/precache-manifest.8afc8fa18a8bd5b3c8d47629230c7e18.js",
     "service-worker.js": "/preschool/service-worker.js",
-    "static/css/2.9f0bc33a.chunk.css.map": "/preschool/static/css/2.9f0bc33a.chunk.css.map",
-    "static/css/main.99505199.chunk.css.map": "/preschool/static/css/main.99505199.chunk.css.map",
-    "static/js/2.c4cbf29b.chunk.js.LICENSE.txt": "/preschool/static/js/2.c4cbf29b.chunk.js.LICENSE.txt",
+    "static/css/2.93187080.chunk.css.map": "/preschool/static/css/2.93187080.chunk.css.map",
+    "static/css/main.2a1355b9.chunk.css.map": "/preschool/static/css/main.2a1355b9.chunk.css.map",
+    "static/js/2.da35ab3e.chunk.js.LICENSE.txt": "/preschool/static/js/2.da35ab3e.chunk.js.LICENSE.txt",
     "static/media/airplane.jpg": "/preschool/static/media/airplane.a80c3772.jpg",
     "static/media/bicikl.jpg": "/preschool/static/media/bicikl.bed8ee6a.jpg",
     "static/media/butterfly.jpg": "/preschool/static/media/butterfly.8a396b60.jpg",
@@ -24,6 +24,7 @@
     "static/media/dress.jpg": "/preschool/static/media/dress.da3ee22c.jpg",
     "static/media/fish.jpg": "/preschool/static/media/fish.31510729.jpg",
     "static/media/flower.jpg": "/preschool/static/media/flower.3144b6ba.jpg",
+    "static/media/frozen.gif": "/preschool/static/media/frozen.ad30b6d4.gif",
     "static/media/glasses.jpg": "/preschool/static/media/glasses.0515402e.jpg",
     "static/media/gusar.jpg": "/preschool/static/media/gusar.aa028126.jpg",
     "static/media/hair-dryer.jpg": "/preschool/static/media/hair-dryer.606c9bf6.jpg",
@@ -49,9 +50,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2c624ddf.js",
-    "static/css/2.9f0bc33a.chunk.css",
-    "static/js/2.c4cbf29b.chunk.js",
-    "static/css/main.99505199.chunk.css",
-    "static/js/main.bba005c5.chunk.js"
+    "static/css/2.93187080.chunk.css",
+    "static/js/2.da35ab3e.chunk.js",
+    "static/css/main.2a1355b9.chunk.css",
+    "static/js/main.84239e39.chunk.js"
   ]
 }
