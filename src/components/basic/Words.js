@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Button, Modal, Tooltip, Input} from 'antd'
+import {Button, Input, Modal, Tooltip} from 'antd'
 import {PlusOutlined} from "@ant-design/icons";
 
 class Words extends Component {
@@ -17,7 +17,7 @@ class Words extends Component {
   };
 
   getWord = e => {
-    let wordValue = e.target.value;
+    let wordValue = e.target.value.toLowerCase();
 
     this.setState({
       addedWords: wordValue
@@ -45,7 +45,9 @@ class Words extends Component {
     return (
         <div className="words-add">
           <Tooltip placement="left" title="Додајте реч коју дете треба исписати.">
-            <Button type="primary" shape="circle" icon={<PlusOutlined />} onClick={this.addWordOpenModal}/>
+            <Button type="primary" icon={<PlusOutlined/>} onClick={this.addWordOpenModal}>
+              Задаци
+            </Button>
           </Tooltip>
           <Modal
               title="Basic Modal"
@@ -54,7 +56,11 @@ class Words extends Component {
               onCancel={this.handleCancelAddWord}
           >
             <Input id="addWord" placeholder="Додај реч" onChange={this.getWord}/>
-
+            <p>Напомена: Задата реч мора бити написана ћирилицом.</p>
+            <p>Предлог речи: Стефан, Вук, Мама, Тата, Баба, Деда, Муњевити</p>
+            <p>
+              <small><b>пс ускоро ће предлози речи бити на чекирање.</b></small>
+            </p>
           </Modal>
         </div>
     )

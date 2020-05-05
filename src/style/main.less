@@ -7,3 +7,55 @@
 //layout
 @import "layout/sidebar";
 @import "layout/main-frame";
+
+.ant-result {
+  //position: absolute;
+  //width: 100%;
+  //left: 0;
+  //top: 0;
+  //background: #fffffff2;
+  //z-index: 99;
+
+  .extra {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto 20px auto;
+    }
+
+    .words-add {
+      margin: 10px auto 0 auto;
+    }
+  }
+}
+
+.options-frame {
+  display: flex;
+  justify-content: space-between;
+}
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50px;
+  position: absolute;
+  z-index: 99;
+  background: @primary-color;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: successMessage .1s ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes successMessage {
+  from {
+    display: flex;
+  }
+  to {
+    display: none;
+  }
+}
