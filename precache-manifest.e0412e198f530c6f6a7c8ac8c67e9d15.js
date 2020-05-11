@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acf572419fa5d2c37d2e06391f8a2cdf",
+    "revision": "9ccf9210e054f99a7f3d3d5653d224f1",
     "url": "/preschool/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/preschool/static/css/2.93187080.chunk.css"
   },
   {
-    "revision": "585fad10e3f91877e187",
+    "revision": "c8656d83e2a14d61954a",
     "url": "/preschool/static/css/main.2a1355b9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/preschool/static/js/2.da35ab3e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "585fad10e3f91877e187",
-    "url": "/preschool/static/js/main.84239e39.chunk.js"
+    "revision": "c8656d83e2a14d61954a",
+    "url": "/preschool/static/js/main.52e722c6.chunk.js"
   },
   {
     "revision": "a1f07013c6de9c9d8e73",

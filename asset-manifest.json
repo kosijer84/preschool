@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/preschool/static/css/main.2a1355b9.chunk.css",
-    "main.js": "/preschool/static/js/main.84239e39.chunk.js",
-    "main.js.map": "/preschool/static/js/main.84239e39.chunk.js.map",
+    "main.js": "/preschool/static/js/main.52e722c6.chunk.js",
+    "main.js.map": "/preschool/static/js/main.52e722c6.chunk.js.map",
     "runtime-main.js": "/preschool/static/js/runtime-main.2c624ddf.js",
     "runtime-main.js.map": "/preschool/static/js/runtime-main.2c624ddf.js.map",
     "static/css/2.93187080.chunk.css": "/preschool/static/css/2.93187080.chunk.css",
     "static/js/2.da35ab3e.chunk.js": "/preschool/static/js/2.da35ab3e.chunk.js",
     "static/js/2.da35ab3e.chunk.js.map": "/preschool/static/js/2.da35ab3e.chunk.js.map",
     "index.html": "/preschool/index.html",
-    "precache-manifest.8afc8fa18a8bd5b3c8d47629230c7e18.js": "/preschool/precache-manifest.8afc8fa18a8bd5b3c8d47629230c7e18.js",
+    "precache-manifest.e0412e198f530c6f6a7c8ac8c67e9d15.js": "/preschool/precache-manifest.e0412e198f530c6f6a7c8ac8c67e9d15.js",
     "service-worker.js": "/preschool/service-worker.js",
     "static/css/2.93187080.chunk.css.map": "/preschool/static/css/2.93187080.chunk.css.map",
     "static/css/main.2a1355b9.chunk.css.map": "/preschool/static/css/main.2a1355b9.chunk.css.map",
@@ -53,6 +53,6 @@
     "static/css/2.93187080.chunk.css",
     "static/js/2.da35ab3e.chunk.js",
     "static/css/main.2a1355b9.chunk.css",
-    "static/js/main.84239e39.chunk.js"
+    "static/js/main.52e722c6.chunk.js"
   ]
 }
